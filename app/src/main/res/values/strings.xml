@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">Molla</string>
+    <string name="chatting_room_btn_lock">보안을 위해 암호화 됨</string>
+    <string name="chatting_room_btn_more">더보기</string>
+    <string name="chatting_room_new_message_delivered">새 메시지가 도착했습니다</string>
+    <string name="chatting_room_buddy">대화 상대</string>
+    <string name="friend_add_btn_add">추가하기</string>
+    <string name="friend_add_hint_name">이름을 입력하세요</string>
+    <string name="friend_add_hint_number">전화번호를 입력하세요</string>
+    <string name="login_password">비밀번호를 입력해주세요</string>
+    <string name="login_btn_login">로그인</string>
+    <string name="login_btn_biometric_login">생체인식 로그인</string>
+    <string name="open_source_contact_us">if you have any questions , please contact us at</string>
+    <string name="open_source_developer_address" translatable="false">dlog@dlog9.com</string>
+    <string name="open_source_notice">OSS Notice</string>
+    <string name="popup_title">title</string>
+    <string name="popup_content">popup information</string>
+    <string name="popup_btn_ok">확인</string>
+    <string name="popup_btn_cancle">취소</string>
+    <string name="send_lottie_animation_success">메시지를 전송하였습니다</string>
+    <string name="send_lottie_animation_notice">상대방에게 비밀번호를 전달해주세요!</string>
+    <string name="chatlist_hint_search_chattingroom">채팅방 검색</string>
+    <string name="friend_list_select_all">전체선택</string>
+    <string name="friend_list_hine_search_address">연락처 검색</string>
+    <string name="onboarding_last_btn_start">시작하기</string>
+    <string name="setting_title">설정</string>
+    <string name="setting_change_password">비밀번호 변경</string>
+    <string name="setting_change_lock_timer">잠금시간 변경</string>
+    <string name="setting_load_address_info">주소록 정보 가져오기</string>
+    <string name="setting_open_source_license">오픈소스 라이센스</string>
+    <string name="setting_help">도움말</string>
+</resources>

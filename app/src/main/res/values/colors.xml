@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorGrayLine">#202020</color>
+    <color name="colorGraySelect">#272728</color>
+    <color name="colorTransparency0">#00000000</color>
+    <color name="colorTransparency80">#CC000000</color>
+    <color name="colorBrightGray">#545454</color>
+
+    <color name="colorPrimary">#4E698C</color>
+    <color name="colorAccent">#A5BF99</color>
+    <color name="colorPrimaryDark">#7288A5</color>
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextAccent">#000000</color>
+    <color name="colorTextPrimaryDark">#FFFFFF</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorTextBlack">#000000</color>
+
+    <!-- my Aspen gray -->
+    <color name="colorAspenDarkGray">#43464C</color>
+    <color name="colorAspenGray">#9197A6</color>
+    <color name="colorAspenBrightBlue">#D3DCF2</color>
+    <color name="colorAspenBlue">#7689CF</color>
+    <color name="colorAspenDarkBlue">#48577D</color>
+
+
+</resources>

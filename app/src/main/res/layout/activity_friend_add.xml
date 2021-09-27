@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAspenDarkBlue"
+    tools:context=".FriendAddActivity">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/friend_add_btn_add"
+        android:textColor="@color/colorAspenBrightBlue"
+        android:textSize="17dp"
+        android:background="@drawable/btn_friend_add"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/friend_add_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/friend_list_card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+        <EditText
+            android:id="@+id/friend_add_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:theme="@style/EditTheme"
+            android:textColor="@color/colorAspenBrightBlue"
+            android:textCursorDrawable="@color/colorAspenBrightBlue"
+            android:hint="@string/friend_add_hint_name"
+            android:textSize="17dp"
+            android:textColorHint="@color/colorAspenBrightBlue"
+            android:backgroundTint="@color/colorAspenBrightBlue"
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext"
+            app:layout_constraintBottom_toTopOf="@id/friend_add_phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/friend_add_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:theme="@style/EditTheme"
+            android:textColorHint="@color/colorAspenBrightBlue"
+            android:textCursorDrawable="@color/colorAspenBrightBlue"
+            android:hint="@string/friend_add_hint_number"
+            android:textSize="17dp"
+            android:inputType="phone"
+            android:textColor="@color/colorAspenBrightBlue"
+            android:backgroundTint="@color/colorAspenBrightBlue"
+            app:layout_constraintTop_toBottomOf="@id/friend_add_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/friend_add_name"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
